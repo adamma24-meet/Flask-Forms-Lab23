@@ -26,7 +26,7 @@ def login():
 @app.route('/home',methods=['GET','POST'])
 def go_home():
 	return render_template('home.html',friends=facebook_friends)
-
+@app.route('/fr')
 
 
 
